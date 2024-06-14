@@ -31,5 +31,14 @@ Certifications
 **HTML**, School/Company, 1999
 </resume>
 ```
+### Sections/Order
+Name
+Tagline
+Contact Information
+Summary
+Skills
+Experience
+Education
+Certifications
 
 [DEMO](https://codepen.io/zerosonesfun/pen/gOJXyJY)
