@@ -51,6 +51,7 @@ Certifications
 ### Usage
 Paste all of the following into a webpage (the script at the end does all of the magic).
 ```
+<resume>
 Billy Wilcosky
 Operations and Training Specialist
 Phone - Email - [Website](https://google.com)
@@ -75,7 +76,7 @@ Degree, School, Dates
 Certifications
 *JavaScript*, [School/Company](https://google.com), 2000
 HTML, School/Company, 1999
-
+</resume>
 <script src="https://cdn.statically.io/gh/zerosonesfun/resume-text-to-html/main/resume.min.js"></script>
 ```
 
