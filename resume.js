@@ -21,9 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = '';
 
         if (lines.length >= 3) {
+            // Split line 3 to separate out phone, email, and other links
+            const line3 = lines[2];
+            const parts = line3.split(' - ').map(part => part.trim());
+
+            // Convert parts to HTML with markdown support
+            const convertedParts = parts.map(part => convertMarkdownToHtml(part)).join(' - ');
+
             html += `<h1>${lines[0]}</h1>`;
             html += `<h2>${lines[1]}</h2>`;
-            html += `<h3>${lines[2]}</h3>`;
+            html += `<h3>${convertedParts}</h3>`;
             html += '<hr>';
         }
 
